@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.first_div{
+  width: 20%;
+  height: 350px;
+  background-image: url(https://wallpaperaccess.com/full/2546567.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px 5px #42423e91;
+}
+.second_div{
+  position: relative;
+  top: 10%;
+  left: 12%;
+}
+
+.third_div{
+  position: relative;
+  top: 15%;
+  left: 0%;
+  text-align: center;
+
+}
